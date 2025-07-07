@@ -1,0 +1,38 @@
+
+# Modelli e oggetti serializzati
+*.pth
+*.pkl
+*.joblib
+
+# Dati e CSV
+/data/*
+!data/README.md  # consente un file placeholder
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# File temporanei Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
+
+# Cartelle di virtual environment
+env/
+venv/
+
+# Editor specifici
+.vscode/
+.idea/
+
+# File di log e output
+*.log
+*.out
+*.tmp
+
+# Backup
+*~
